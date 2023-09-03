@@ -20,7 +20,7 @@ function Tours() {
 
     return (
         <div className='flex items-center flex-col justify-center'>
-            <div className="font-bold md:text-8xl text-3xl font-['Rubik_Iso'] text-center py-8 border-3 md:border-8 border-dashed border-black rounded-lg px-4">
+            <div className="font-bold md:text-8xl text-3xl font-['Rubik_Iso'] text-center md:py-8 py-4 border-4 md:border-8 border-dashed border-black rounded-lg px-4">
                 <h1>Tour Guide</h1>
             </div>
             <div className='md:w-10/12 w-full item-center md:justify-around justify-center flex flex-wrap'>

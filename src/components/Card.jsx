@@ -9,9 +9,9 @@ function Card({ name, info, price, image,func,id }) {
     }
 
     return (
-        <div className='w-[400px] p-2  my-4 flex flex-col justify-between shadow-lg shadow-gray-500'>
+        <div className='md:w-[400px] w-11/12 px-2 my-4 flex flex-col justify-between shadow-lg shadow-gray-500'>
             <div className="image">
-                <img src={image} alt="" className='h-[200px] w-full object-cover'/>
+                <img src={image} alt="" className='h-[200px] w-full object-cover border-2 border-solid border-black'/>
             </div>
             <div className=''>
                 <p className='font-bold text-green-500 text-2xl tracking-wide '>&#8377;{price}</p>
